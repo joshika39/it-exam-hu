@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MT3DP8YQfuH42yRf3glXSx0j1kXVrAxW+Qc+WW/KiJivxWTXGO5W6DJ0mb+7ltHhki8vqiF7bQzrhM+L4C69YQ==",
+  "success": true,
+  "projectFilePath": "D:\\Erettsegi\\C#\\Tanarno\\Tanarno.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jhege\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

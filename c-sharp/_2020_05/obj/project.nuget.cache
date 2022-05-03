@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qYhoCFFTDwtWBSxO0BUh9LoxhMZ1jdcXm4XRtmYGzvN2XfaZCHO/JELMyMK+mrD9IXEwFohjKdcKT3skB+o9EA==",
+  "success": true,
+  "projectFilePath": "D:\\Erettsegi\\C#\\_2020_05\\_2020_05.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jhege\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+D:\Erettsegi\C#\_2019_10\obj\Debug\net5.0\_2019_10.csproj.AssemblyReference.cache
+D:\Erettsegi\C#\_2019_10\obj\Debug\net5.0\_2019_10.GeneratedMSBuildEditorConfig.editorconfig
+D:\Erettsegi\C#\_2019_10\obj\Debug\net5.0\_2019_10.AssemblyInfoInputs.cache
+D:\Erettsegi\C#\_2019_10\obj\Debug\net5.0\_2019_10.AssemblyInfo.cs
+D:\Erettsegi\C#\_2019_10\obj\Debug\net5.0\_2019_10.csproj.CoreCompileInputs.cache
+D:\Erettsegi\C#\_2019_10\bin\Debug\net5.0\_2019_10.exe
+D:\Erettsegi\C#\_2019_10\bin\Debug\net5.0\_2019_10.deps.json
+D:\Erettsegi\C#\_2019_10\bin\Debug\net5.0\_2019_10.runtimeconfig.json
+D:\Erettsegi\C#\_2019_10\bin\Debug\net5.0\_2019_10.runtimeconfig.dev.json
+D:\Erettsegi\C#\_2019_10\bin\Debug\net5.0\_2019_10.dll
+D:\Erettsegi\C#\_2019_10\bin\Debug\net5.0\_2019_10.pdb
+D:\Erettsegi\C#\_2019_10\obj\Debug\net5.0\_2019_10.dll
+D:\Erettsegi\C#\_2019_10\obj\Debug\net5.0\refint\_2019_10.dll
+D:\Erettsegi\C#\_2019_10\obj\Debug\net5.0\_2019_10.pdb
+D:\Erettsegi\C#\_2019_10\obj\Debug\net5.0\_2019_10.genruntimeconfig.cache
+D:\Erettsegi\C#\_2019_10\obj\Debug\net5.0\ref\_2019_10.dll

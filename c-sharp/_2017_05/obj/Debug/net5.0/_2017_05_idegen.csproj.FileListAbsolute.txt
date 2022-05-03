@@ -1,0 +1,16 @@
+D:\Erettsegi\C#\_2017_05\bin\Debug\net5.0\_2017_05_idegen.exe
+D:\Erettsegi\C#\_2017_05\bin\Debug\net5.0\_2017_05_idegen.deps.json
+D:\Erettsegi\C#\_2017_05\bin\Debug\net5.0\_2017_05_idegen.runtimeconfig.json
+D:\Erettsegi\C#\_2017_05\bin\Debug\net5.0\_2017_05_idegen.runtimeconfig.dev.json
+D:\Erettsegi\C#\_2017_05\bin\Debug\net5.0\_2017_05_idegen.dll
+D:\Erettsegi\C#\_2017_05\bin\Debug\net5.0\_2017_05_idegen.pdb
+D:\Erettsegi\C#\_2017_05\obj\Debug\net5.0\_2017_05_idegen.csproj.AssemblyReference.cache
+D:\Erettsegi\C#\_2017_05\obj\Debug\net5.0\_2017_05_idegen.GeneratedMSBuildEditorConfig.editorconfig
+D:\Erettsegi\C#\_2017_05\obj\Debug\net5.0\_2017_05_idegen.AssemblyInfoInputs.cache
+D:\Erettsegi\C#\_2017_05\obj\Debug\net5.0\_2017_05_idegen.AssemblyInfo.cs
+D:\Erettsegi\C#\_2017_05\obj\Debug\net5.0\_2017_05_idegen.csproj.CoreCompileInputs.cache
+D:\Erettsegi\C#\_2017_05\obj\Debug\net5.0\_2017_05_idegen.dll
+D:\Erettsegi\C#\_2017_05\obj\Debug\net5.0\refint\_2017_05_idegen.dll
+D:\Erettsegi\C#\_2017_05\obj\Debug\net5.0\_2017_05_idegen.pdb
+D:\Erettsegi\C#\_2017_05\obj\Debug\net5.0\_2017_05_idegen.genruntimeconfig.cache
+D:\Erettsegi\C#\_2017_05\obj\Debug\net5.0\ref\_2017_05_idegen.dll
