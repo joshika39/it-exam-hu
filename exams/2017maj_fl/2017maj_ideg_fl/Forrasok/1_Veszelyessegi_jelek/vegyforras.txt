@@ -1,0 +1,28 @@
+﻿1. dia
+Veszélyességi piktogramok, veszélyjelek
+2. dia
+Veszélyességi osztály
+Párosítsa a piktogramokat az osztályok nevéhez!
+robbanásveszélyes (E)
+égést tápláló, oxidálószer (O)
+mérgező (T)
+erősen mérgező (T+)
+könnyen gyulladó (F)
+rendívül gyúlékony (F+)
+maró (C)
+ingerlő (Xi)
+ártalmas (Xn)
+környezetre veszélyes (N)
+3. dia
+Régi és új piktogramok
+Ingerlő, Xi
+Bőr- és légúti irritáló, szemkárosító
+4. dia
+Hétköznapi irritáló anyagok
+Soroljunk fel néhány, a háztartásban előforduló irritáló anyagot!
+Szappan
+Háztartási tisztítószerek
+Arckrémek
+Illatanyagok
+Mosópor
+Fényvédő krémek
