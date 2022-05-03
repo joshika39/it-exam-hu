@@ -106,21 +106,60 @@ namespace _2017_05_idegen
             Console.WriteLine("4. feladat");
 
 
-            var legtobb = 0;
+            var legtobbido = 0;
             var legtobbId = 0;
 
-            for (int i = furdozok.Count - 1; i >= 0; i--)
+            var tomb2 = new int[1000];
+            for (int i = 0; i < tomb2.Length; i++)
             {
-                if (furdozok[i].ido >= legtobb)
-                {
-                    var id = furdozok[i].id;
+                tomb2[i] = 0;
+            }
 
-                    legtobb = furdozok[i].ido;
-                    legtobbId = id;
+            var kezdes = 0;
+
+            for (int i = 0; i < furdozok.Count; i++)
+            {
+                var pillantnyiIdo = furdozok[i].ido;
+                var id = furdozok[i].id;
+                var test = kezdes;
+
+                if (furdozok[i].reszlegid == 0 && furdozok[i].beki == 1)
+                {
+                    kezdes = pillantnyiIdo;
+                }
+               
+                if (furdozok[i].reszlegid == 0 && furdozok[i].beki == 0)
+                {
+                    tomb2[id] += pillantnyiIdo - kezdes;
+                    kezdes = 0;
+                }
+
+            }
+
+            for (int i = tomb2.Length - 1; i >= 0; i--)
+            {
+                if (tomb2[i] > 0)
+                {
+                    if (tomb2[i] >= legtobbido)
+                    {
+                        legtobbido = tomb2[i];
+                        legtobbId = i;
+                    }
                 }
             }
             Console.WriteLine(legtobbId);
 
+            //for (int i = 0; i < furdozok.Count; i++)
+            //{
+            //    var szemely = furdozok[i];
+            //    for (int j = 0; j < furdozok.Count; j++)
+            //    {
+            //        if(szemely.id == furdozok[j].id)
+            //        {
+
+            //        }
+            //    }
+            //}
         }
     }
 }
