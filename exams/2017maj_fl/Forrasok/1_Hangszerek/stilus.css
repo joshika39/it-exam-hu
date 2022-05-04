@@ -2,24 +2,52 @@ body{
     background-color: #E4D7B5;
     color: #7A2206;
 }
+
 a{
     color: #2F2F2F;
 }
+
 #tartalomjegyzek{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 hr{
     width: 80%;
     height: 3px;
 }
+
 .borderedimg{
     border: solid 1px black;
 }
+
 .back{
     text-align: right;
+    /* display: flex;
+    justify-content: flex-end; */
 }
+
 .back img{
     width: 80px;
+}
+
+#cim{
+    text-align: center;
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+}
+
+table{
+    border-collapse: collapse;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+td{
+    border: 1px solid black;
 }
