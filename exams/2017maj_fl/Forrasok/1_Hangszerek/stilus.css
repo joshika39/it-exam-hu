@@ -1,0 +1,20 @@
+body{
+    background-color: #E4D7B5;
+    color: #7A2206;
+}
+a{
+    color: #2F2F2F;
+}
+#tartalomjegyzek{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+hr{
+    margin: 0 auto;
+    width: 80%;
+    height: 3px;
+}
+img{
+    border: solid 1px black;
+}
