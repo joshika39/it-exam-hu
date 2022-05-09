@@ -68,19 +68,25 @@ namespace _2018_10
             var parosak = 0;
             var paratlanok = -1;
 
+            var paratlanLista = new List<Utca>();
+            var parosLista = new List<Utca>();
+
             for (int i = 0; i < hazak.Length; i++)
             {
                 if (hazak[i].parosVparatlan == 0)
                 {
                     parosak += 2;
                     hazak[i].hazszam = parosak;
+                    parosLista.Add(hazak[i]);
                 }
                 if (hazak[i].parosVparatlan == 1)
                 {
                     paratlanok += 2;
                     hazak[i].hazszam = paratlanok;
+                    paratlanLista.Add(hazak[i]);
                 }
             }
+
             if (hazak[utolso].parosVparatlan == 0)
             {
                 Console.WriteLine($"Az utolsó telek házszáma: {parosak}");
@@ -108,7 +114,78 @@ namespace _2018_10
                     }
                 }
             }
-            //hazak[1].hazszam = 2;
+
+            var hazszam = int.Parse(Console.ReadLine());
+            var hazIndex = 0;
+            if(hazszam % 2 == 0)
+            {
+                for (int i = 0; i < parosLista.Count; i++)
+                {
+                    if(parosLista[i].hazszam == hazszam)
+                    {
+                        hazIndex = i;
+                    }
+                }
+
+                for (var szin = 'A'; szin <= 'Z'; szin++)
+                {
+                    if(hazIndex - 1 >= 0 && hazIndex + 1 <= parosLista.Count - 1)
+                    {
+                        if(parosLista[hazIndex - 1].kerites[0] != szin && parosLista[hazIndex + 1].kerites[0] != szin)
+                        {
+                            Console.WriteLine($"A kerites festheto erre: {szin}");
+                        }
+                    }
+                    else if (hazIndex == 0)
+                    {
+                        if (parosLista[hazIndex + 1].kerites[0] != szin)
+                        {
+                            Console.WriteLine($"A kerites festheto erre: {szin}");
+                        }
+                    }
+                    else if (hazIndex == parosLista.Count - 1)
+                    {
+                        if (parosLista[hazIndex - 1].kerites[0] != szin)
+                        {
+                            Console.WriteLine($"A kerites festheto erre: {szin}");
+                        }
+                    }
+                }
+            }
+            else
+            {
+                for (int i = 0; i < paratlanLista.Count; i++)
+                {
+                    if (paratlanLista[i].hazszam == hazszam)
+                    {
+                        hazIndex = i;
+                    }
+                }
+                for (var szin = 'A'; szin <= 'Z'; szin++)
+                {
+                    if (hazIndex - 1 >= 0 && hazIndex + 1 <= paratlanLista.Count - 1)
+                    {
+                        if (paratlanLista[hazIndex - 1].kerites[0] != szin && paratlanLista[hazIndex + 1].kerites[0] != szin)
+                        {
+                            Console.WriteLine($"A kerites festheto erre: {szin}");
+                        }
+                    }
+                    else if (hazIndex == 0)
+                    {
+                        if (paratlanLista[hazIndex + 1].kerites[0] != szin)
+                        {
+                            Console.WriteLine($"A kerites festheto erre: {szin}");
+                        }
+                    }
+                    else if (hazIndex == paratlanLista.Count - 1)
+                    {
+                        if (parosLista[hazIndex - 1].kerites[0] != szin)
+                        {
+                            Console.WriteLine($"A kerites festheto erre: {szin}");
+                        }
+                    }
+                }
+            }
 
         }
     }
