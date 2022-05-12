@@ -1,0 +1,34 @@
+body{
+    background: #F0F0F0;
+}
+
+a{
+    color: #747474;
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: #9BCE11; 
+}
+#fugek{
+    text-align: right;
+}
+#tablazat{
+    margin: 0 auto;
+    width: 1000px;
+}
+#tablazat, tr, td{
+    border: 1px solid black;
+}
+#tablazat td{
+    padding: 2px;
+}
+
+#tablazat td:nth-child(1){
+    width: 150px;
+}
+
+#test{
+    height: 300px;
+}
