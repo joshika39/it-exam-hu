@@ -12,14 +12,15 @@ namespace Minta
         static void Main(string[] args)
         {
             // Karakterekkel valo dolgozas
-            var minta = Console.ReadLine()[0];
+            //var minta = Console.ReadLine()[0];
+            var minta = 'H';
             if (minta >= 'A' && minta <= 'Z')
             {
                 Console.WriteLine("Benne az abeceben");
             }
 
             // To feldolgozasa 
-            var toSorok = File.ReadAllLines("../../../melyseg.txt"); // Specialis lista
+            var toSorok = File.ReadAllLines("../../melyseg.txt"); // Specialis lista
             var to = new List<List<int>>(); // (lista a listaban)
             var toTomb = new int[9,9]; // (2d-s tomb)
 
@@ -45,6 +46,7 @@ namespace Minta
 
             for (int i = 2; i < toSorok.Length; i++) // Elindulunk a sorokon lefele (az elso for ciklus)
             {
+                continue;
                 var sor = toSorok[i];
 
                 /* Letrheozunk egy ideiglenes listat, amit ezen a fuggvenyen kivul
@@ -61,6 +63,34 @@ namespace Minta
             }
 
 
+            /* ----------------
+             * FAJLBA IRAS 
+             * ------------- */
+
+            // Abban az esetben, ha belepakoljuk az adatokat egy `Lista<string>`-be
+            var fajlbaSzoveg = new List<string>();
+            for (int i = 0; i < 50; i++)
+            {
+                // Valami formazasok meg atalakitasok ha kell
+                // ....
+                // ....
+
+                fajlbaSzoveg.Add($"Joshua szereti a Csenget {i + 1}x{50+i} meg meg nehany");
+            }
+            File.WriteAllLines("../../mennyireis1.txt", fajlbaSzoveg);
+
+            // A masik megoldas
+
+            var fajlIro = new StreamWriter("../../mennyireis2.txt");
+            for (int i = 0; i < fajlbaSzoveg.Count; i++)
+            {
+                // Pontosan mintha Console-ra iratnank, csak epp a fajlba megy
+                fajlIro.WriteLine(fajlbaSzoveg[i]); 
+                Console.WriteLine(fajlbaSzoveg[i]);
+            }
+            // DE ITT A NAGYON FONTOS!
+
+            fajlIro.Close(); // Ha ez nincs, nem mentodik el vegul a fajl.
         }
     }
 }
