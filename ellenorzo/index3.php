@@ -20,7 +20,8 @@ else{
     $hagymas = "nem";
 }
 
+echo "modositott adatok: $nev, $meret, $alap, $leiras, Eros: $eros, Hagymas: $hagymas";
+
 $connect = mysqli_connect("localhost", "root", "", "etterem") or die("Ihh");
 
 mysqli_query($connect, "UPDATE pizza SET nev='$nev', meret='$meret', alap='$alap', leiras='$leiras', eros='$eros', hagymas='$hagymas' WHERE id='$id'");
-header('Location: index2.php?id='.$id);
