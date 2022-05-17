@@ -30,7 +30,7 @@ while ($row = mysqli_fetch_assoc($query)){
     </select><br><br>
 
     <input type="radio" name="alap" value="paradicsom" <?php if($alap == "paradicsom") echo "checked" ?>> Paradicsomos <br>
-    <input type="radio" name="alap" value="tejfol" <?php if($alap == "paradicsom") echo "checked" ?>> Tejfolos <br><br>
+    <input type="radio" name="alap" value="tejfol" <?php if($alap == "tejfol") echo "checked" ?>> Tejfolos <br><br>
 
     <textarea cols="30" rows="5" name="leiras"><?php echo $leiras ?></textarea> <br>
     <input type="checkbox" name="eros" value="eros" <?php if($eros == "igen") echo "checked" ?>> Eros<br>

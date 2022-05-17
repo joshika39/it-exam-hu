@@ -15,5 +15,5 @@ while ($row = mysqli_fetch_assoc($query)){
     echo "<a href='index2.php?id=$id'>$id, $nev, $meret, $alap, $leiras";
     if($eros == "igen") echo " eros";
     if($hagymas == "igen") echo " hagymas";
-    echo "</a>";
+    echo "</a><br>";
 }
