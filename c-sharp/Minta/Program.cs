@@ -22,7 +22,6 @@ namespace Minta
             // To feldolgozasa 
             var toSorok = File.ReadAllLines("../../melyseg.txt"); // Specialis lista
             var to = new List<List<int>>(); // (lista a listaban)
-            var toTomb = new int[9,9]; // (2d-s tomb)
 
 
             for (int i = 2; i < toSorok.Length; i++) // Elindulunk a sorokon lefele (az elso for ciklus)
@@ -44,6 +43,8 @@ namespace Minta
                 to.Add(ideigList); // Es ez a pont utan, mar nem is lesz szukseg ra
             }
 
+
+            var toTomb = new int[toSorok.Length-2, 9]; // (2d-s tomb)
             for (int i = 2; i < toSorok.Length; i++) // Elindulunk a sorokon lefele (az elso for ciklus)
             {
                 continue;
